@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .badge {
+        @apply rounded-full px-3 py-1;
+        @apply font-mono text-xs font-bold;
+        @apply bg-rose-100 dark:bg-slate-700 text-pink-700 dark:text-white;
+    }
+
+    .btn {
+        @apply rounded px-5 py-1 cursor-pointer select-none;
+        @apply text-sm font-semibold tracking-wide;
+        @apply bg-rose-600 hover:bg-rose-500 border-2 border-rose-600 hover:border-rose-400 text-white transition-colors;
+    }
+
+    .loader {
+        @apply w-full h-48;
+        @apply flex items-center justify-center;
+    }
+
+    .loader span {
+        @apply w-12 h-12 rounded-full opacity-75;
+        @apply border-solid border-[6px] border-rose-500 dark:border-rose-600 border-t-rose-600 dark:border-t-rose-500;
+        @apply animate-spin;
+    }
+}
