@@ -7,6 +7,7 @@
 ```bash
 git clone https://github.com/Ligonya/marvel-app.git
 cd marvel-app/
+rm -R ./.git
 ```
 
 ### Variables d'environnement
