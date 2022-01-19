@@ -5,7 +5,7 @@
 ### Récupération du projet
 
 ```bash
-git clone ...
+git clone https://github.com/Ligonya/marvel-app.git
 cd marvel-app\
 ```
 
