@@ -25,3 +25,5 @@ npm install
 npm run build
 npm run preview
 ```
+
+L'app est maintenant disponible à cet url : http://localhost:5000/
